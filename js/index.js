@@ -19,8 +19,8 @@ function initMap()
     zoom: 11,
     mapTypeId: 'roadmap',
   });
-  clearLocations()
   infoWindow = new google.maps.InfoWindow();
+  clearLocations()
   searchStores()
 }
 

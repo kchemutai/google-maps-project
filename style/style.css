@@ -167,13 +167,12 @@ body {
     padding-right: 8px;
     margin-bottom: 12px;
     margin-top: 12px;
+    display: flex;
+    flex-grow: 1;
+    margin: 8px;
     transition: 0.2 ease-in-out;
 }
 .store-container-background:hover
 {
-    display: flex;
-    flex-grow: 1;
-    margin: 8px;
-    background-color: #CCC;
-    
+    background-color: #CCC; 
 }
